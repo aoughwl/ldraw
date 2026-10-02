@@ -1,0 +1,669 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7b0af4f5a5faeb4c875b2a2099977ad, type: 3}
+  m_Name: LDrawMaterialLibrary
+  m_EditorClassIdentifier: LDraw.Runtime::LDraw.LDrawMaterialLibrary
+  Materials:
+  - ColorCode: 0
+    Material: {fileID: 2100000, guid: bbfb0c3f61e44344c9bba43948d6a30c, type: 2}
+  - ColorCode: 1
+    Material: {fileID: 2100000, guid: 5d770e7b376a2ab499a336154774141e, type: 2}
+  - ColorCode: 2
+    Material: {fileID: 2100000, guid: 6569eacf52bbab2458ffae0397df9159, type: 2}
+  - ColorCode: 3
+    Material: {fileID: 2100000, guid: b63180a32d3ff9d4a88e80b1e09817db, type: 2}
+  - ColorCode: 4
+    Material: {fileID: 2100000, guid: abcc9913fc756674cb974ddc0e402b99, type: 2}
+  - ColorCode: 5
+    Material: {fileID: 2100000, guid: d72aa19967288d541b528cbc564e7eea, type: 2}
+  - ColorCode: 6
+    Material: {fileID: 2100000, guid: d996df20b0ddb854689799f122f7c0f3, type: 2}
+  - ColorCode: 7
+    Material: {fileID: 2100000, guid: 1c8b3db096314c348b9ae96f6264cd2f, type: 2}
+  - ColorCode: 8
+    Material: {fileID: 2100000, guid: 4d7c1296b31bba04aa9470145f59950d, type: 2}
+  - ColorCode: 9
+    Material: {fileID: 2100000, guid: 82bf04fd7139e33439e362e300612a26, type: 2}
+  - ColorCode: 10
+    Material: {fileID: 2100000, guid: 923152ad898d1af469e0ae94362fd82f, type: 2}
+  - ColorCode: 11
+    Material: {fileID: 2100000, guid: bb7c153c17726284b9984dcb64379194, type: 2}
+  - ColorCode: 12
+    Material: {fileID: 2100000, guid: cd1b854493b85034292369fd2e45cb4f, type: 2}
+  - ColorCode: 13
+    Material: {fileID: 2100000, guid: 92898cb15f7524941b6454218e56bc4e, type: 2}
+  - ColorCode: 14
+    Material: {fileID: 2100000, guid: 16b2bd8c59127f548aee2438c8cba753, type: 2}
+  - ColorCode: 15
+    Material: {fileID: 2100000, guid: bab877b22db95d24ab44498af6ab92a0, type: 2}
+  - ColorCode: 17
+    Material: {fileID: 2100000, guid: cf8961c602a883847a7062767cbdf0a5, type: 2}
+  - ColorCode: 18
+    Material: {fileID: 2100000, guid: 4d5fd839d437ff74ebdf65aa7540e8ae, type: 2}
+  - ColorCode: 19
+    Material: {fileID: 2100000, guid: 6bc73acb145c70d42bd3ca8ac7b4df07, type: 2}
+  - ColorCode: 20
+    Material: {fileID: 2100000, guid: 2c3c09a4e3281d44d8205c55afae2e36, type: 2}
+  - ColorCode: 22
+    Material: {fileID: 2100000, guid: b0b9b22d193b1d042b5932d9b497b3eb, type: 2}
+  - ColorCode: 23
+    Material: {fileID: 2100000, guid: b75fbe5c86fb24b4992a6de38a778826, type: 2}
+  - ColorCode: 25
+    Material: {fileID: 2100000, guid: b9d66c60624722b4a82eae7b2c86f245, type: 2}
+  - ColorCode: 26
+    Material: {fileID: 2100000, guid: 0cafbc36d6da1be4cb82c706867b15cc, type: 2}
+  - ColorCode: 27
+    Material: {fileID: 2100000, guid: b65ba117a24470544a1da889830fe239, type: 2}
+  - ColorCode: 28
+    Material: {fileID: 2100000, guid: 5e8a44f1d461baf49a0a9a384839d92a, type: 2}
+  - ColorCode: 29
+    Material: {fileID: 2100000, guid: 430a213f7489f2b4381d2a0c28fd0716, type: 2}
+  - ColorCode: 30
+    Material: {fileID: 2100000, guid: 327170b2bdf01a242837a233067d74bb, type: 2}
+  - ColorCode: 31
+    Material: {fileID: 2100000, guid: e5c5bd338ad4d0c4f81395e0c5a1f324, type: 2}
+  - ColorCode: 68
+    Material: {fileID: 2100000, guid: 1b888e40e01af6a4697a5ad66471e630, type: 2}
+  - ColorCode: 69
+    Material: {fileID: 2100000, guid: b441ab7be135dc345a7953a34f76f2ea, type: 2}
+  - ColorCode: 70
+    Material: {fileID: 2100000, guid: 8090c2f63d4e45b41ab849e43b8afc9f, type: 2}
+  - ColorCode: 71
+    Material: {fileID: 2100000, guid: 0ed1c9e2c484fb243b2dc230fda45e85, type: 2}
+  - ColorCode: 72
+    Material: {fileID: 2100000, guid: 2a7d28cb772b5164a874213453cd561a, type: 2}
+  - ColorCode: 73
+    Material: {fileID: 2100000, guid: ff7b3cf5f7ed1474588d380011300153, type: 2}
+  - ColorCode: 74
+    Material: {fileID: 2100000, guid: 7a89a1787b8120f49ac35da909cf985f, type: 2}
+  - ColorCode: 77
+    Material: {fileID: 2100000, guid: 2cd236f48f291ab4ba439c87715839b5, type: 2}
+  - ColorCode: 78
+    Material: {fileID: 2100000, guid: 984b6c382a1f1454cae22be5472b6d32, type: 2}
+  - ColorCode: 84
+    Material: {fileID: 2100000, guid: 873ce8d14a577784aa0c675e03f19e45, type: 2}
+  - ColorCode: 85
+    Material: {fileID: 2100000, guid: bf11bbce850b423499027772310b7376, type: 2}
+  - ColorCode: 86
+    Material: {fileID: 2100000, guid: 9ee5b4de96d254a4f8aebbca27d6d0f1, type: 2}
+  - ColorCode: 89
+    Material: {fileID: 2100000, guid: 49f25461217a6444db2887bf1ef78d28, type: 2}
+  - ColorCode: 92
+    Material: {fileID: 2100000, guid: bbab3c6beb2e57a40aa0f20671587bcc, type: 2}
+  - ColorCode: 100
+    Material: {fileID: 2100000, guid: d9f82ee1d6a8c0247bc4f6f9296e428b, type: 2}
+  - ColorCode: 110
+    Material: {fileID: 2100000, guid: 7f22634a49fdd234fa6eb881c9970117, type: 2}
+  - ColorCode: 112
+    Material: {fileID: 2100000, guid: 4773430d964013843b9b23511e3a0581, type: 2}
+  - ColorCode: 115
+    Material: {fileID: 2100000, guid: 6b6b96d855442a44a95b1ad7551bbad6, type: 2}
+  - ColorCode: 118
+    Material: {fileID: 2100000, guid: d370758e6f0ad024f996d4467a963a56, type: 2}
+  - ColorCode: 120
+    Material: {fileID: 2100000, guid: 40ff7e41caba1c845a90edf83d88d2a9, type: 2}
+  - ColorCode: 121
+    Material: {fileID: 2100000, guid: 04b5e9bfbf0eb7448a4895ee22fb03ed, type: 2}
+  - ColorCode: 123
+    Material: {fileID: 2100000, guid: ccd54e4ee25793d4cb7e5fef5f9591aa, type: 2}
+  - ColorCode: 125
+    Material: {fileID: 2100000, guid: e1f149288a9b82b4f905433fc68af8c2, type: 2}
+  - ColorCode: 128
+    Material: {fileID: 2100000, guid: db8031588c83ab54093ec0fdb0d7149a, type: 2}
+  - ColorCode: 151
+    Material: {fileID: 2100000, guid: 126a98088a03f7e4185cf850bb1ce87f, type: 2}
+  - ColorCode: 180
+    Material: {fileID: 2100000, guid: 5f1182236fce01a47b159ad4ace52123, type: 2}
+  - ColorCode: 191
+    Material: {fileID: 2100000, guid: 82d5254476cf5e6499cd94e4b42a359e, type: 2}
+  - ColorCode: 212
+    Material: {fileID: 2100000, guid: 537bb235a4c35b143914b9c2d71df0cc, type: 2}
+  - ColorCode: 213
+    Material: {fileID: 2100000, guid: 565ad68212c79714ca5f2ddcc0e122a0, type: 2}
+  - ColorCode: 216
+    Material: {fileID: 2100000, guid: 54473d213af9d5745b1d2abcd6cdf179, type: 2}
+  - ColorCode: 218
+    Material: {fileID: 2100000, guid: 97653504dd45a534fbb5ac8cdce3c1c0, type: 2}
+  - ColorCode: 219
+    Material: {fileID: 2100000, guid: 75063b4425efbb344a7a3c76a9794c03, type: 2}
+  - ColorCode: 220
+    Material: {fileID: 2100000, guid: 93ede6e28245e654cb5a7307adb27177, type: 2}
+  - ColorCode: 225
+    Material: {fileID: 2100000, guid: e013e2a9ab626fa488a13b5484a3d2c9, type: 2}
+  - ColorCode: 226
+    Material: {fileID: 2100000, guid: 09fa2b8f8453f1746bf56f90af949326, type: 2}
+  - ColorCode: 232
+    Material: {fileID: 2100000, guid: b01dcf842c5de7548881627a2b39a089, type: 2}
+  - ColorCode: 272
+    Material: {fileID: 2100000, guid: bc37535de0ef9ec43a598ffbec0d806c, type: 2}
+  - ColorCode: 288
+    Material: {fileID: 2100000, guid: 945ce96c98f2ce1408f18b2ea0218c80, type: 2}
+  - ColorCode: 295
+    Material: {fileID: 2100000, guid: 337e22897cd63654aae273d836fec49d, type: 2}
+  - ColorCode: 308
+    Material: {fileID: 2100000, guid: 92f51b72d5c5feb409f8e7d4e672298f, type: 2}
+  - ColorCode: 313
+    Material: {fileID: 2100000, guid: 8085fa1e229bc7949bb4f281ef613e73, type: 2}
+  - ColorCode: 320
+    Material: {fileID: 2100000, guid: c701fab73e5212f448d7eaa7d63e0a1e, type: 2}
+  - ColorCode: 321
+    Material: {fileID: 2100000, guid: 989f401687c9d37458d3e66e843e4639, type: 2}
+  - ColorCode: 322
+    Material: {fileID: 2100000, guid: bc0a1c7c0530ae04e94c4954d59dfef3, type: 2}
+  - ColorCode: 323
+    Material: {fileID: 2100000, guid: 081c6ec4c6bb35e4fa8ee9dfeb1c228b, type: 2}
+  - ColorCode: 326
+    Material: {fileID: 2100000, guid: 8ef3ea6aab8b94446890da0b2e2aa672, type: 2}
+  - ColorCode: 330
+    Material: {fileID: 2100000, guid: e16bb8d99d206a243b1baf6ffd3b26f2, type: 2}
+  - ColorCode: 335
+    Material: {fileID: 2100000, guid: f8a6c0efb5b76e54985a4f44019f5c74, type: 2}
+  - ColorCode: 351
+    Material: {fileID: 2100000, guid: 6b232f977215e2e43b5509d057ff6cbe, type: 2}
+  - ColorCode: 353
+    Material: {fileID: 2100000, guid: f2c11b85d87158d42ac2d1e2510602c2, type: 2}
+  - ColorCode: 366
+    Material: {fileID: 2100000, guid: 8efb25b11914c5747b3be96d9ec42ec1, type: 2}
+  - ColorCode: 368
+    Material: {fileID: 2100000, guid: fb4dc6dd92262444fa919cf6fff544b3, type: 2}
+  - ColorCode: 370
+    Material: {fileID: 2100000, guid: fcc847359e842c34cbd5dda14de98f5d, type: 2}
+  - ColorCode: 371
+    Material: {fileID: 2100000, guid: 26fb3ab9bc3a24f46be07c88e19fb8de, type: 2}
+  - ColorCode: 373
+    Material: {fileID: 2100000, guid: d228c55a3d52d8d4a92f7a63494b43ac, type: 2}
+  - ColorCode: 378
+    Material: {fileID: 2100000, guid: a208904e1e2fda34e80cb62426c8556b, type: 2}
+  - ColorCode: 379
+    Material: {fileID: 2100000, guid: 0d8802365570def4c87c583e818bb4c8, type: 2}
+  - ColorCode: 402
+    Material: {fileID: 2100000, guid: 673099c3f7d66a64688c606b499f0254, type: 2}
+  - ColorCode: 422
+    Material: {fileID: 2100000, guid: 30046e3206109d949adb44d59dd16d1d, type: 2}
+  - ColorCode: 423
+    Material: {fileID: 2100000, guid: ab9fbb10ad23c784da232cf979566a6f, type: 2}
+  - ColorCode: 424
+    Material: {fileID: 2100000, guid: da3d609eef9672e4482fae3d99f46248, type: 2}
+  - ColorCode: 430
+    Material: {fileID: 2100000, guid: 81d052b63516c104d8427e292a0a2e15, type: 2}
+  - ColorCode: 431
+    Material: {fileID: 2100000, guid: 6184d576d0844be4b9f897bf92070461, type: 2}
+  - ColorCode: 450
+    Material: {fileID: 2100000, guid: 9bce7cb9ea34fe94abd8e107392140a5, type: 2}
+  - ColorCode: 462
+    Material: {fileID: 2100000, guid: 1df1f8231ffdc8040903cb2fcdce012c, type: 2}
+  - ColorCode: 484
+    Material: {fileID: 2100000, guid: c02eb9c4b80077e41adb59afe309e959, type: 2}
+  - ColorCode: 503
+    Material: {fileID: 2100000, guid: 8ab27a0ea8288e24dae63331ef6f04ad, type: 2}
+  - ColorCode: 508
+    Material: {fileID: 2100000, guid: 5c12579e53d4656409466785fd8455ff, type: 2}
+  - ColorCode: 509
+    Material: {fileID: 2100000, guid: 2031108052686174b9a006d1bbb0a291, type: 2}
+  - ColorCode: 510
+    Material: {fileID: 2100000, guid: 92a791dd2a5439a438981803bb060dac, type: 2}
+  - ColorCode: 10015
+    Material: {fileID: 2100000, guid: 6dd96eee19e8a1043a70edb5317012aa, type: 2}
+  - ColorCode: 10017
+    Material: {fileID: 2100000, guid: 6c367f38b9d8ae74fb621c2c7fc60bd2, type: 2}
+  - ColorCode: 10022
+    Material: {fileID: 2100000, guid: 5578a929371ffda43a16602cebd1409d, type: 2}
+  - ColorCode: 32
+    Material: {fileID: 2100000, guid: 7f10bf09e06947c44afce7db53fc5a21, type: 2}
+  - ColorCode: 33
+    Material: {fileID: 2100000, guid: 9c398b0b35ea13747a27d56100d92b4f, type: 2}
+  - ColorCode: 34
+    Material: {fileID: 2100000, guid: 396e6fdbb46b55c4fba98aad8262d57f, type: 2}
+  - ColorCode: 35
+    Material: {fileID: 2100000, guid: e8fb900f24c40a045a5d8e6f1f9eb082, type: 2}
+  - ColorCode: 36
+    Material: {fileID: 2100000, guid: 78e41faf659f66e4fb0e131a86efa0a9, type: 2}
+  - ColorCode: 37
+    Material: {fileID: 2100000, guid: 251288aec2fcead44ac88cabfbc8fc71, type: 2}
+  - ColorCode: 38
+    Material: {fileID: 2100000, guid: d3b4e9b4aa0864c4083d30473e309623, type: 2}
+  - ColorCode: 39
+    Material: {fileID: 2100000, guid: c98ef6328e0b46d49ac2b2c78c4fbdf2, type: 2}
+  - ColorCode: 40
+    Material: {fileID: 2100000, guid: ce043bacdf39aef47b5834b1b3b3c0db, type: 2}
+  - ColorCode: 41
+    Material: {fileID: 2100000, guid: 4135a50ec6e3b874daf083fbdbb52d72, type: 2}
+  - ColorCode: 42
+    Material: {fileID: 2100000, guid: fbc1272679584c54e97648a2de7e169f, type: 2}
+  - ColorCode: 43
+    Material: {fileID: 2100000, guid: a92d9cc3ac65a3c44ba762731fff37e6, type: 2}
+  - ColorCode: 44
+    Material: {fileID: 2100000, guid: 1569b7986cdcf8b4792d8db29f0d9c9a, type: 2}
+  - ColorCode: 45
+    Material: {fileID: 2100000, guid: df40800d4c1b50a4e9432b4c515ef6e7, type: 2}
+  - ColorCode: 46
+    Material: {fileID: 2100000, guid: b4e1441a393867f4fae5a4ea4b9fe5d1, type: 2}
+  - ColorCode: 47
+    Material: {fileID: 2100000, guid: 7ce5c18feb87c1944be31b75d7bd9ae9, type: 2}
+  - ColorCode: 52
+    Material: {fileID: 2100000, guid: 678557de12ac0c343a7e7dcf75a2a5ad, type: 2}
+  - ColorCode: 54
+    Material: {fileID: 2100000, guid: 70804d7b0c158074f923af84928a648d, type: 2}
+  - ColorCode: 57
+    Material: {fileID: 2100000, guid: f2671a992e7eeca42b02374ecf031c78, type: 2}
+  - ColorCode: 158
+    Material: {fileID: 2100000, guid: c5d3b9a9104e42d45b7341579145e5d9, type: 2}
+  - ColorCode: 227
+    Material: {fileID: 2100000, guid: 8198e7ee450b5d143a38d24a4f0f20ca, type: 2}
+  - ColorCode: 231
+    Material: {fileID: 2100000, guid: c3f5b8a03573125498eb9c3e56cd5c76, type: 2}
+  - ColorCode: 234
+    Material: {fileID: 2100000, guid: 24868146a4f68ab47a225ca2d27fbaf5, type: 2}
+  - ColorCode: 284
+    Material: {fileID: 2100000, guid: 472bd9b1577d4704b9165417cd5574a5, type: 2}
+  - ColorCode: 285
+    Material: {fileID: 2100000, guid: 2f6fff4e1e2d7d842b43a1d650405f35, type: 2}
+  - ColorCode: 293
+    Material: {fileID: 2100000, guid: 311696fb1b34f5f4ab976314828dc69b, type: 2}
+  - ColorCode: 10375
+    Material: {fileID: 2100000, guid: 13676ec1e5e27b445aec125fdc6c3b13, type: 2}
+  - ColorCode: 11015
+    Material: {fileID: 2100000, guid: 274d2cdacf154ac41a1b2ced2b2f53b8, type: 2}
+  - ColorCode: 11019
+    Material: {fileID: 2100000, guid: c78c77e981e03004797fbef7d26b64ae, type: 2}
+  - ColorCode: 60
+    Material: {fileID: 2100000, guid: 03368496a5ee6be428b4641f902befca, type: 2}
+  - ColorCode: 61
+    Material: {fileID: 2100000, guid: 9685e9e1201dad24fb5384495d563820, type: 2}
+  - ColorCode: 62
+    Material: {fileID: 2100000, guid: f7dd7621ff09a19478a6574c1eee8f26, type: 2}
+  - ColorCode: 63
+    Material: {fileID: 2100000, guid: 6eb5ef3c798cb3c439569da9f9d4f6d7, type: 2}
+  - ColorCode: 64
+    Material: {fileID: 2100000, guid: bb22421c9bd0dfd45b232fb99ca3cd59, type: 2}
+  - ColorCode: 334
+    Material: {fileID: 2100000, guid: 4ead6a8346c20844695f3ef09c86f785, type: 2}
+  - ColorCode: 383
+    Material: {fileID: 2100000, guid: b0d44430bc6758a4ca170ad1df2df03e, type: 2}
+  - ColorCode: 83
+    Material: {fileID: 2100000, guid: c3aa9ffd3750dd94ab0236a6bd6073f6, type: 2}
+  - ColorCode: 134
+    Material: {fileID: 2100000, guid: 308b984c57e902b4cb22423cf0d41ce8, type: 2}
+  - ColorCode: 135
+    Material: {fileID: 2100000, guid: e11cac4e263c8a84fa1c554ecd40e758, type: 2}
+  - ColorCode: 137
+    Material: {fileID: 2100000, guid: b625ce95b3e86914b9f6cc382030da97, type: 2}
+  - ColorCode: 142
+    Material: {fileID: 2100000, guid: ababfb83a2c48024aa175ad0574fae18, type: 2}
+  - ColorCode: 147
+    Material: {fileID: 2100000, guid: 3593f35b36327b44d9b87ea1ce9fd0b9, type: 2}
+  - ColorCode: 148
+    Material: {fileID: 2100000, guid: a0ab6085e9bb92f419259cba85a5bae7, type: 2}
+  - ColorCode: 150
+    Material: {fileID: 2100000, guid: c14f16e343e8db94281e828e6858e13e, type: 2}
+  - ColorCode: 176
+    Material: {fileID: 2100000, guid: f9a28750c5b959847bcd1c68ec1a721a, type: 2}
+  - ColorCode: 178
+    Material: {fileID: 2100000, guid: a8e3f025b3ddb564f97840215b725779, type: 2}
+  - ColorCode: 179
+    Material: {fileID: 2100000, guid: 8564449854fb03741b2c38e81978d4a3, type: 2}
+  - ColorCode: 183
+    Material: {fileID: 2100000, guid: a140df82ccdcef644bac04a36b415d58, type: 2}
+  - ColorCode: 184
+    Material: {fileID: 2100000, guid: 773397afa7f4b664c94596b9adfea46c, type: 2}
+  - ColorCode: 185
+    Material: {fileID: 2100000, guid: 87f406b01aab97d41b92f7af23ad22d4, type: 2}
+  - ColorCode: 186
+    Material: {fileID: 2100000, guid: 5959ced68a693184a9534420ee8a2540, type: 2}
+  - ColorCode: 187
+    Material: {fileID: 2100000, guid: 7d545a669ed968249a61f76c38c99ce4, type: 2}
+  - ColorCode: 189
+    Material: {fileID: 2100000, guid: 31616f3087965cf4082f514e4661d3d8, type: 2}
+  - ColorCode: 200
+    Material: {fileID: 2100000, guid: 23d73e89662dbb748aaf9069bbc91d24, type: 2}
+  - ColorCode: 296
+    Material: {fileID: 2100000, guid: f2c1bcd8e58aa6743b64c5974bc45e57, type: 2}
+  - ColorCode: 297
+    Material: {fileID: 2100000, guid: 6436d5801f3c34843960ecf5a1cff79c, type: 2}
+  - ColorCode: 315
+    Material: {fileID: 2100000, guid: c3df6c4f241d07c4d98db1322a3446db, type: 2}
+  - ColorCode: 316
+    Material: {fileID: 2100000, guid: 66187901f352f0c4ca777ac056d03b89, type: 2}
+  - ColorCode: 342
+    Material: {fileID: 2100000, guid: 26e857c1a297f1344b98bccc29280103, type: 2}
+  - ColorCode: 346
+    Material: {fileID: 2100000, guid: 47f54c0a3ec4c5e4b8d0af0dc467d1eb, type: 2}
+  - ColorCode: 80
+    Material: {fileID: 2100000, guid: a0992309b404f1641ba4296aa8de212e, type: 2}
+  - ColorCode: 81
+    Material: {fileID: 2100000, guid: fbfdb374be31c724e852730b14dc7eca, type: 2}
+  - ColorCode: 82
+    Material: {fileID: 2100000, guid: 002156e2daff8b94e8e54f264412c442, type: 2}
+  - ColorCode: 87
+    Material: {fileID: 2100000, guid: 441f573ce9e97d94c84d9611627b2153, type: 2}
+  - ColorCode: 300
+    Material: {fileID: 2100000, guid: eaaa8be4583798b408bbe328a86507fc, type: 2}
+  - ColorCode: 10045
+    Material: {fileID: 2100000, guid: 2358705e947098d4aa77f5e0449c8e0a, type: 2}
+  - ColorCode: 10046
+    Material: {fileID: 2100000, guid: 6425d9a114836fe498f3adfd5531aef4, type: 2}
+  - ColorCode: 10049
+    Material: {fileID: 2100000, guid: 557399bb47da676438f683d62355d4ca, type: 2}
+  - ColorCode: 332
+    Material: {fileID: 2100000, guid: 1cc15346b5914664eaa5e0ddc1d4e0b1, type: 2}
+  - ColorCode: 333
+    Material: {fileID: 2100000, guid: 9bb96dc6cccd3924194942f56e7413a5, type: 2}
+  - ColorCode: 21
+    Material: {fileID: 2100000, guid: 9fe410611f2289045a53d3bdeb16b5b2, type: 2}
+  - ColorCode: 79
+    Material: {fileID: 2100000, guid: b7c1bc1de2366d045a16752b5f0f80b2, type: 2}
+  - ColorCode: 294
+    Material: {fileID: 2100000, guid: 71960625af4bf1441808333c94f5eb43, type: 2}
+  - ColorCode: 329
+    Material: {fileID: 2100000, guid: 0ad434d8aca3e8548bdfaa10210c7e59, type: 2}
+  - ColorCode: 114
+    Material: {fileID: 2100000, guid: 3ec423810d5dc164d9ddd85fefd392c4, type: 2}
+  - ColorCode: 117
+    Material: {fileID: 2100000, guid: d64b3f3e7933d3746a39e390690b17e5, type: 2}
+  - ColorCode: 129
+    Material: {fileID: 2100000, guid: fca9bac6d35b8c34eb9d98f7251f6bcd, type: 2}
+  - ColorCode: 302
+    Material: {fileID: 2100000, guid: 4b22020ffa627d3439b96f713e917771, type: 2}
+  - ColorCode: 339
+    Material: {fileID: 2100000, guid: 815db772ebaec394e8b01053c4ab9bf6, type: 2}
+  - ColorCode: 341
+    Material: {fileID: 2100000, guid: 016ea4b690b64a64b916891f3a1a5aca, type: 2}
+  - ColorCode: 10351
+    Material: {fileID: 2100000, guid: 03d4870bade0a40418d342805d8574ac, type: 2}
+  - ColorCode: 360
+    Material: {fileID: 2100000, guid: 67aed58ef4a45a94eb67fa1a580e2656, type: 2}
+  - ColorCode: 362
+    Material: {fileID: 2100000, guid: 9e7ce2e9891b67b4284540f4b03b4fdc, type: 2}
+  - ColorCode: 363
+    Material: {fileID: 2100000, guid: 7071adf321e08b34e9ad2ac091879f04, type: 2}
+  - ColorCode: 364
+    Material: {fileID: 2100000, guid: 3c0e8f00fb5a1cc4f99a9a9daba71278, type: 2}
+  - ColorCode: 365
+    Material: {fileID: 2100000, guid: fe7045e2acb600f438b72fae1e30be89, type: 2}
+  - ColorCode: 367
+    Material: {fileID: 2100000, guid: edf5f2f9551a2504ca8d3121eabc7871, type: 2}
+  - ColorCode: 376
+    Material: {fileID: 2100000, guid: b8ded3d8aa1cf7c499824da64568506e, type: 2}
+  - ColorCode: 10366
+    Material: {fileID: 2100000, guid: eba3879a289cd5849baaa0ba7cb6b001, type: 2}
+  - ColorCode: 75
+    Material: {fileID: 2100000, guid: ca5ca833e2efc8641a8400e494377965, type: 2}
+  - ColorCode: 76
+    Material: {fileID: 2100000, guid: afccac699153fa741b3b92b0d3c939c8, type: 2}
+  - ColorCode: 132
+    Material: {fileID: 2100000, guid: cb936a9d7f6b9ed45a9661ff1f3f2aeb, type: 2}
+  - ColorCode: 133
+    Material: {fileID: 2100000, guid: b77f8e763c358e444b23fd57e150b0fa, type: 2}
+  - ColorCode: 30000
+    Material: {fileID: 2100000, guid: ba193b42aef348647ae38e324b1db637, type: 2}
+  - ColorCode: 30001
+    Material: {fileID: 2100000, guid: bf2b374c5fa72514290c2f745b533322, type: 2}
+  - ColorCode: 30002
+    Material: {fileID: 2100000, guid: c920f89732e5f2846925388a6311828a, type: 2}
+  - ColorCode: 30003
+    Material: {fileID: 2100000, guid: 10e9f8beaae832f4abf32038e7b0d8fe, type: 2}
+  - ColorCode: 30004
+    Material: {fileID: 2100000, guid: 74d769c14b5fa1b489c3293381fc88a6, type: 2}
+  - ColorCode: 30005
+    Material: {fileID: 2100000, guid: 9798fa50f36322c49adb3c343fc9bcdd, type: 2}
+  - ColorCode: 30006
+    Material: {fileID: 2100000, guid: 337507059f616a143aafb07945641250, type: 2}
+  - ColorCode: 30007
+    Material: {fileID: 2100000, guid: 92e9666b295c0d9408ccdfb60a120d83, type: 2}
+  - ColorCode: 30008
+    Material: {fileID: 2100000, guid: ac6bbb270f92e80479cbfa330be22fd1, type: 2}
+  - ColorCode: 30009
+    Material: {fileID: 2100000, guid: 72ac71a7a1e54b34ab8eac2aac27a294, type: 2}
+  - ColorCode: 30010
+    Material: {fileID: 2100000, guid: 1381895c0ca9a6e4ab0c748fe47e6dcf, type: 2}
+  - ColorCode: 30011
+    Material: {fileID: 2100000, guid: 886af666d66b8834eb21902adf1c7bb9, type: 2}
+  - ColorCode: 30012
+    Material: {fileID: 2100000, guid: 5a46202ffd55fd24483706662a04d934, type: 2}
+  - ColorCode: 30013
+    Material: {fileID: 2100000, guid: fdd053fea564d184ebe22cb0ca8985a9, type: 2}
+  - ColorCode: 30014
+    Material: {fileID: 2100000, guid: 9ade26e626b54984db51d16ac422eaeb, type: 2}
+  - ColorCode: 30015
+    Material: {fileID: 2100000, guid: ebf5bd8bcd2dcd24aab3ec8b46d8b44f, type: 2}
+  - ColorCode: 30016
+    Material: {fileID: 2100000, guid: 205628a00f83fbe498d4d65425371ef8, type: 2}
+  - ColorCode: 30032
+    Material: {fileID: 2100000, guid: 26e3acbb49956884ea94d518a12752d1, type: 2}
+  - ColorCode: 30033
+    Material: {fileID: 2100000, guid: e3321728173f8d04dbbae0563b52c7e3, type: 2}
+  - ColorCode: 30034
+    Material: {fileID: 2100000, guid: 8ea04088581be7e4c889d6b9e19d963b, type: 2}
+  - ColorCode: 30035
+    Material: {fileID: 2100000, guid: 658b8d0b4cb233247b51fc5cddc993b7, type: 2}
+  - ColorCode: 30037
+    Material: {fileID: 2100000, guid: b936ed8a2457d6a468191a05d6627a05, type: 2}
+  - ColorCode: 30038
+    Material: {fileID: 2100000, guid: baae3aabbaf2b36448826efad6e39b19, type: 2}
+  - ColorCode: 30039
+    Material: {fileID: 2100000, guid: 340182d577a225f4b8aac896a2e7484a, type: 2}
+  - ColorCode: 30040
+    Material: {fileID: 2100000, guid: ad7b9d0be25aa65459239f3d60b66fee, type: 2}
+  - ColorCode: 30054
+    Material: {fileID: 2100000, guid: 4b89e079341e7f044bfade00c182e28a, type: 2}
+  - ColorCode: 30080
+    Material: {fileID: 2100000, guid: 4d178783531483e499dbb4fb02b8dafa, type: 2}
+  - ColorCode: 30081
+    Material: {fileID: 2100000, guid: 44bc335905bb30642ae034524ef7a2c0, type: 2}
+  - ColorCode: 30082
+    Material: {fileID: 2100000, guid: 894e3e95789879f4c945ab6dcc2823a9, type: 2}
+  - ColorCode: 30083
+    Material: {fileID: 2100000, guid: d3e3835c666be4d4db029d6c709145bf, type: 2}
+  - ColorCode: 30084
+    Material: {fileID: 2100000, guid: d9bf0919ebee6f640b460c79a27f53b9, type: 2}
+  - ColorCode: 30085
+    Material: {fileID: 2100000, guid: 77ef66425508665499d792445db45bd1, type: 2}
+  - ColorCode: 30086
+    Material: {fileID: 2100000, guid: d78d00f2aee1e8047a4dcfa7047bec1a, type: 2}
+  - ColorCode: 30087
+    Material: {fileID: 2100000, guid: 333b2716d4e3c574c97d8ff3129d84ed, type: 2}
+  - ColorCode: 30088
+    Material: {fileID: 2100000, guid: 8af404ab09bbbe54b8ccfdd50216dd7d, type: 2}
+  - ColorCode: 30089
+    Material: {fileID: 2100000, guid: 0b219d7fb4edfb8429263c99e6af0a44, type: 2}
+  - ColorCode: 30090
+    Material: {fileID: 2100000, guid: 54957a4565f839a4f83c2cf29ca41198, type: 2}
+  - ColorCode: 30091
+    Material: {fileID: 2100000, guid: 6da9692a84c66cc43ad36b23a5dd4f92, type: 2}
+  - ColorCode: 31000
+    Material: {fileID: 2100000, guid: 97ef04f397ef5b44b96606a9c0abbe0c, type: 2}
+  - ColorCode: 31001
+    Material: {fileID: 2100000, guid: 1cfd247d5ba65464e9e421067081d201, type: 2}
+  - ColorCode: 31002
+    Material: {fileID: 2100000, guid: 00730f805767e4549a63b2ee8095391c, type: 2}
+  - ColorCode: 65
+    Material: {fileID: 2100000, guid: c60b8aaf7f3659848862ebc65d9875d7, type: 2}
+  - ColorCode: 256
+    Material: {fileID: 2100000, guid: 069574ccf29c9e64aa4091f4c9e37288, type: 2}
+  - ColorCode: 273
+    Material: {fileID: 2100000, guid: 52085f1e5eb24114e87968901f351147, type: 2}
+  - ColorCode: 324
+    Material: {fileID: 2100000, guid: 1f29f075d5d90134dbdda8498306807a, type: 2}
+  - ColorCode: 350
+    Material: {fileID: 2100000, guid: 9108977dafa3a2743b408d520e594867, type: 2}
+  - ColorCode: 375
+    Material: {fileID: 2100000, guid: 0279e3a526d7d0440b5daa377a2297af, type: 2}
+  - ColorCode: 406
+    Material: {fileID: 2100000, guid: b4f1c1d83c378b24fb7a98434f689fbf, type: 2}
+  - ColorCode: 449
+    Material: {fileID: 2100000, guid: 4f4f530b2c8e77e4d914b910e338d65f, type: 2}
+  - ColorCode: 490
+    Material: {fileID: 2100000, guid: 5987420b84a59bc4d83eb954e3c94b96, type: 2}
+  - ColorCode: 496
+    Material: {fileID: 2100000, guid: 815e4e871f7ae4a47a441522e1095132, type: 2}
+  - ColorCode: 504
+    Material: {fileID: 2100000, guid: 0e13ec367e931c949b8039a37df91a11, type: 2}
+  - ColorCode: 511
+    Material: {fileID: 2100000, guid: f6973b75eef94aa40a98965824e93c1d, type: 2}
+  - ColorCode: 10002
+    Material: {fileID: 2100000, guid: 7c70677fb963a3e45a63976b6d60a2b6, type: 2}
+  - ColorCode: 10003
+    Material: {fileID: 2100000, guid: a6c4189e0969fa3469845d2941af965a, type: 2}
+  - ColorCode: 10005
+    Material: {fileID: 2100000, guid: 353016282687e2b48b6a11922f98a39e, type: 2}
+  - ColorCode: 10008
+    Material: {fileID: 2100000, guid: 6c33e2d173bc0194bbbe1c12f807d97c, type: 2}
+  - ColorCode: 10010
+    Material: {fileID: 2100000, guid: a35d30133923c3e49af98097cf79efb3, type: 2}
+  - ColorCode: 10019
+    Material: {fileID: 2100000, guid: 00ca86831268c514ca1ba150872da27f, type: 2}
+  - ColorCode: 10026
+    Material: {fileID: 2100000, guid: 2cb67adb68993e24e8ab3d3cec564069, type: 2}
+  - ColorCode: 10028
+    Material: {fileID: 2100000, guid: 1c71d169bf99eea4f9e8055da72cad12, type: 2}
+  - ColorCode: 10029
+    Material: {fileID: 2100000, guid: 3d93d1074b029a7448feda1b1fbf311e, type: 2}
+  - ColorCode: 10030
+    Material: {fileID: 2100000, guid: 8362bc24ec1aefc4eae9699d4ba858b7, type: 2}
+  - ColorCode: 10031
+    Material: {fileID: 2100000, guid: 97a2172b369203f4883c7b66c279463a, type: 2}
+  - ColorCode: 10070
+    Material: {fileID: 2100000, guid: 75a113e63e5c76740a149193d16a573b, type: 2}
+  - ColorCode: 10072
+    Material: {fileID: 2100000, guid: b37d82c14f3226f46b3b48a84b3e3761, type: 2}
+  - ColorCode: 10073
+    Material: {fileID: 2100000, guid: 372eaa2c26dfd4d47a1c4acf3571cdf6, type: 2}
+  - ColorCode: 10078
+    Material: {fileID: 2100000, guid: 93193942b5dab1d498815c1e2859b8ff, type: 2}
+  - ColorCode: 10084
+    Material: {fileID: 2100000, guid: b8e9ed8fbc63ef24fbcd0c0464484d0d, type: 2}
+  - ColorCode: 10085
+    Material: {fileID: 2100000, guid: 8f9be9b578d7990409292cfa5734d03a, type: 2}
+  - ColorCode: 10092
+    Material: {fileID: 2100000, guid: 7eb251d70bb35a44283719ab7aecd7c3, type: 2}
+  - ColorCode: 10135
+    Material: {fileID: 2100000, guid: c787227d4f0a5db4b91b779cc608bede, type: 2}
+  - ColorCode: 10137
+    Material: {fileID: 2100000, guid: 2ecb6ba1707da9a4c81dac57589f4166, type: 2}
+  - ColorCode: 10147
+    Material: {fileID: 2100000, guid: 60b663655e8b31e4a887239a01e29b7a, type: 2}
+  - ColorCode: 10148
+    Material: {fileID: 2100000, guid: db6cfb807d48e434aa1b1078c579fd87, type: 2}
+  - ColorCode: 10150
+    Material: {fileID: 2100000, guid: 727fca4fc4a32a04caf7ccfcc36a4c4e, type: 2}
+  - ColorCode: 10151
+    Material: {fileID: 2100000, guid: de9065a63dda8da40a458edf36327fb8, type: 2}
+  - ColorCode: 10189
+    Material: {fileID: 2100000, guid: faf435cc3335a8c458a047048d08713d, type: 2}
+  - ColorCode: 10191
+    Material: {fileID: 2100000, guid: 3fae706f48b02de4c808388bd149fb02, type: 2}
+  - ColorCode: 10200
+    Material: {fileID: 2100000, guid: 6929a841b73259c44ad5f7c543bc681c, type: 2}
+  - ColorCode: 10212
+    Material: {fileID: 2100000, guid: 3e0cbd76dbf46824dbab78e39bf5c4c8, type: 2}
+  - ColorCode: 10226
+    Material: {fileID: 2100000, guid: e26dd993dbe831c438ee59b5cc9ef1b0, type: 2}
+  - ColorCode: 10288
+    Material: {fileID: 2100000, guid: 96d46dda0b56ea04ebe4cc495ab7798c, type: 2}
+  - ColorCode: 10297
+    Material: {fileID: 2100000, guid: 95debf42e80760741a0e7a11b4860ee5, type: 2}
+  - ColorCode: 10308
+    Material: {fileID: 2100000, guid: e911609e915da1e45804410d44e1b6a5, type: 2}
+  - ColorCode: 10320
+    Material: {fileID: 2100000, guid: c80c0bb5b15e83945984d1edcad9d85c, type: 2}
+  - ColorCode: 10321
+    Material: {fileID: 2100000, guid: 0ec8080a095dfee4285e813c0e9ff52d, type: 2}
+  - ColorCode: 10322
+    Material: {fileID: 2100000, guid: 6783cef44840f5040aef5f407fd712f5, type: 2}
+  - ColorCode: 10323
+    Material: {fileID: 2100000, guid: 73b6a0acebd44c34c8b8e995858271eb, type: 2}
+  - ColorCode: 10326
+    Material: {fileID: 2100000, guid: a2d427fbbad195b40ae0246f888790f4, type: 2}
+  - ColorCode: 10330
+    Material: {fileID: 2100000, guid: 73e9528fb1b9d6b488fcc8c9f63cba79, type: 2}
+  - ColorCode: 10378
+    Material: {fileID: 2100000, guid: 34ccc09e22f17584bbc6b358fee9f443, type: 2}
+  - ColorCode: 10484
+    Material: {fileID: 2100000, guid: e761004d8a0658142930b8803e50760c, type: 2}
+  - ColorCode: 66
+    Material: {fileID: 2100000, guid: 71c089849b27175439fceb2836499bcc, type: 2}
+  - ColorCode: 67
+    Material: {fileID: 2100000, guid: dd85904cee1958e4eaaaba05cf6052c4, type: 2}
+  - ColorCode: 10035
+    Material: {fileID: 2100000, guid: 43b44157d1d59a749a941e09b3da16a1, type: 2}
+  - ColorCode: 10036
+    Material: {fileID: 2100000, guid: 3e245f4eef216884b84107c71749c611, type: 2}
+  - ColorCode: 10043
+    Material: {fileID: 2100000, guid: 44dc6437bca5d624381a834d53a46fe8, type: 2}
+  - ColorCode: 10057
+    Material: {fileID: 2100000, guid: d11adda9516f604469304dd03e242c1d, type: 2}
+  - ColorCode: 10079
+    Material: {fileID: 2100000, guid: 3a443c9882bc31d4497c7a4589173ca0, type: 2}
+  - ColorCode: 20000
+    Material: {fileID: 2100000, guid: df1577cc4fe5803469db5c81e412d3d4, type: 2}
+  - ColorCode: 20001
+    Material: {fileID: 2100000, guid: d054327b74ae6174cbcf7823b1353d6e, type: 2}
+  - ColorCode: 20002
+    Material: {fileID: 2100000, guid: c850e787aa7ef944488df0ca705df2ef, type: 2}
+  - ColorCode: 20004
+    Material: {fileID: 2100000, guid: d9f08f8589dffdf43a3659b002ebeb12, type: 2}
+  - ColorCode: 20006
+    Material: {fileID: 2100000, guid: 9bfa737ac1d55e649b7d5516ec32759a, type: 2}
+  - ColorCode: 20007
+    Material: {fileID: 2100000, guid: 32aafc38c575e494eafd70fea04037e9, type: 2}
+  - ColorCode: 20010
+    Material: {fileID: 2100000, guid: 06f76a67c5e85f9419b0bfbdfac24d91, type: 2}
+  - ColorCode: 20014
+    Material: {fileID: 2100000, guid: 7500faa6f8db0c94e9c24873608ab90c, type: 2}
+  - ColorCode: 20015
+    Material: {fileID: 2100000, guid: 66981f903db40814b8943dfed94cbc3a, type: 2}
+  - ColorCode: 20019
+    Material: {fileID: 2100000, guid: 3e6561918da8ea44ab8696adecee13d0, type: 2}
+  - ColorCode: 20022
+    Material: {fileID: 2100000, guid: 778c249bcdfb38043a2a378a7cbae936, type: 2}
+  - ColorCode: 20028
+    Material: {fileID: 2100000, guid: 676f65107ea179b4bb0bc22a209ec0e7, type: 2}
+  - ColorCode: 20070
+    Material: {fileID: 2100000, guid: fcb9d474851f99a46b3a0efa58c4f448, type: 2}
+  - ColorCode: 20071
+    Material: {fileID: 2100000, guid: aa3dbe572391d664b95cb4ef034090c4, type: 2}
+  - ColorCode: 20072
+    Material: {fileID: 2100000, guid: dfffb9279da9e234ba7bbca04ecf9da3, type: 2}
+  - ColorCode: 20086
+    Material: {fileID: 2100000, guid: ddfd7dd4cb1264544be5b2046254bab1, type: 2}
+  - ColorCode: 20288
+    Material: {fileID: 2100000, guid: 2b86f9072ce84a14ba0602b7148dfc42, type: 2}
+  - ColorCode: 20320
+    Material: {fileID: 2100000, guid: 139654957a618c94b9721b0cdeae5da7, type: 2}
+  - ColorCode: 20335
+    Material: {fileID: 2100000, guid: 39dc3abfc0bf1c4478ef579506d4c825, type: 2}
+  - ColorCode: 20500
+    Material: {fileID: 2100000, guid: 02c19715ef0f61946a87c4a1bba17fa3, type: 2}
+  - ColorCode: 507
+    Material: {fileID: 2100000, guid: 99b6b04265f51d2439426a569b2ead48, type: 2}
+  - ColorCode: 16
+    Material: {fileID: 2100000, guid: 8918272282e353342a494794da529dc6, type: 2}
+  - ColorCode: 24
+    Material: {fileID: 2100000, guid: 5e9fb19d3e054b44c96b2549cf1b9f42, type: 2}
+  - ColorCode: 493
+    Material: {fileID: 2100000, guid: dcfafe93f6b59d94fa2672c81af824a5, type: 2}
+  - ColorCode: 494
+    Material: {fileID: 2100000, guid: 9ad8c0fdf39d5474fb16a1ae67831a93, type: 2}
+  - ColorCode: 495
+    Material: {fileID: 2100000, guid: ac854891561c18b4c8c37b0481019bd8, type: 2}
+  - ColorCode: 10047
+    Material: {fileID: 2100000, guid: 9197487d80233ec41b953fbf64013fb0, type: 2}
+  TexturedMaterials:
+  - ColorCode: 16
+    TextureName: 973paza.png
+    Material: {fileID: 2100000, guid: f4094c772ba9d9244a58df3e5a8e564f, type: 2}
+  - ColorCode: 16
+    TextureName: 973pazb.png
+    Material: {fileID: 2100000, guid: 9ee8859b74f1aa348ba96ae3cd89299f, type: 2}
+  - ColorCode: 16
+    TextureName: 3622p06.png
+    Material: {fileID: 2100000, guid: 6a716bad7a9d8354f985c5acf8f887a2, type: 2}

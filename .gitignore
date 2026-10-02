@@ -1,0 +1,10 @@
+Library/
+Temp/
+Logs/
+obj/
+bin/
+*.user
+GeneratedMaterials/
+GeneratedTextures/
+GeneratedPrefabs/
+GeneratedMeshes/

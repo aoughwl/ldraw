@@ -1,0 +1,1947 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aeb1383929a36544a658ce654a7fb44, type: 3}
+  m_Name: LDrawColorTable
+  m_EditorClassIdentifier: LDraw.Runtime::LDraw.LDrawColorTable
+  Colors:
+  - Code: 0
+    Name: Black
+    Value: {r: 0.105882354, g: 0.16470589, b: 0.20392157, a: 1}
+    EdgeColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 1
+    Name: Blue
+    Value: {r: 0.11764706, g: 0.3529412, b: 0.65882355, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 2
+    Name: Green
+    Value: {r: 0, g: 0.52156866, b: 0.16862746, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 3
+    Name: Dark_Turquoise
+    Value: {r: 0.023529412, g: 0.6156863, b: 0.62352943, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 4
+    Name: Red
+    Value: {r: 0.7058824, g: 0, b: 0, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 5
+    Name: Dark_Pink
+    Value: {r: 0.827451, g: 0.20784314, b: 0.6156863, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 6
+    Name: Brown
+    Value: {r: 0.32941177, g: 0.2, b: 0.14117648, a: 1}
+    EdgeColor: {r: 0.11764706, g: 0.11764706, b: 0.11764706, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 7
+    Name: Light_Grey
+    Value: {r: 0.5411765, g: 0.57254905, b: 0.5529412, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 8
+    Name: Dark_Grey
+    Value: {r: 0.32941177, g: 0.34901962, b: 0.33333334, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 9
+    Name: Light_Blue
+    Value: {r: 0.5921569, g: 0.79607844, b: 0.8509804, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 10
+    Name: Bright_Green
+    Value: {r: 0.34509805, g: 0.67058825, b: 0.25490198, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 11
+    Name: Light_Turquoise
+    Value: {r: 0, g: 0.6666667, b: 0.6431373, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 12
+    Name: Salmon
+    Value: {r: 0.9411765, g: 0.42745098, b: 0.38039216, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 13
+    Name: Pink
+    Value: {r: 0.9647059, g: 0.6627451, b: 0.73333335, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 14
+    Name: Yellow
+    Value: {r: 0.98039216, g: 0.78431374, b: 0.039215688, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 15
+    Name: White
+    Value: {r: 0.95686275, g: 0.95686275, b: 0.95686275, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 17
+    Name: Light_Green
+    Value: {r: 0.6784314, g: 0.8509804, b: 0.65882355, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 18
+    Name: Light_Yellow
+    Value: {r: 1, g: 0.8392157, b: 0.49803922, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 19
+    Name: Tan
+    Value: {r: 0.84313726, g: 0.7294118, b: 0.54901963, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20
+    Name: Light_Violet
+    Value: {r: 0.6862745, g: 0.74509805, b: 0.8392157, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 22
+    Name: Purple
+    Value: {r: 0.40392157, g: 0.12156863, b: 0.5058824, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 23
+    Name: Dark_Blue_Violet
+    Value: {r: 0.05490196, g: 0.24313726, b: 0.6039216, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 25
+    Name: Orange
+    Value: {r: 0.8392157, g: 0.4745098, b: 0.13725491, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 26
+    Name: Magenta
+    Value: {r: 0.5647059, g: 0.12156863, b: 0.4627451, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 27
+    Name: Lime
+    Value: {r: 0.64705884, g: 0.7921569, b: 0.09411765, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 28
+    Name: Dark_Tan
+    Value: {r: 0.5372549, g: 0.49019608, b: 0.38431373, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 29
+    Name: Bright_Pink
+    Value: {r: 1, g: 0.61960787, b: 0.8039216, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30
+    Name: Medium_Lavender
+    Value: {r: 0.627451, g: 0.43137255, b: 0.7254902, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 31
+    Name: Lavender
+    Value: {r: 0.8039216, g: 0.6431373, b: 0.87058824, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 68
+    Name: Very_Light_Orange
+    Value: {r: 0.99215686, g: 0.7647059, b: 0.5137255, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 69
+    Name: Bright_Reddish_Lilac
+    Value: {r: 0.5411765, g: 0.07058824, b: 0.65882355, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 70
+    Name: Reddish_Brown
+    Value: {r: 0.37254903, g: 0.19215687, b: 0.03529412, a: 1}
+    EdgeColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 71
+    Name: Light_Bluish_Grey
+    Value: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 72
+    Name: Dark_Bluish_Grey
+    Value: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 73
+    Name: Medium_Blue
+    Value: {r: 0.4509804, g: 0.5882353, b: 0.78431374, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 74
+    Name: Medium_Green
+    Value: {r: 0.49803922, g: 0.76862746, b: 0.45882353, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 77
+    Name: Light_Pink
+    Value: {r: 0.99607843, g: 0.8, b: 0.8117647, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 78
+    Name: Light_Nougat
+    Value: {r: 1, g: 0.7882353, b: 0.58431375, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 84
+    Name: Medium_Nougat
+    Value: {r: 0.6666667, g: 0.49019608, b: 0.33333334, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 85
+    Name: Medium_Lilac
+    Value: {r: 0.26666668, g: 0.101960786, b: 0.5686275, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 86
+    Name: Light_Brown
+    Value: {r: 0.48235294, g: 0.3647059, b: 0.25490198, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 89
+    Name: Blue_Violet
+    Value: {r: 0.10980392, g: 0.34509805, b: 0.654902, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 92
+    Name: Nougat
+    Value: {r: 0.73333335, g: 0.5019608, b: 0.3529412, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 100
+    Name: Light_Salmon
+    Value: {r: 0.9764706, g: 0.7176471, b: 0.64705884, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 110
+    Name: Violet
+    Value: {r: 0.14901961, g: 0.27450982, b: 0.6039216, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 112
+    Name: Medium_Violet
+    Value: {r: 0.28235295, g: 0.38039216, b: 0.6745098, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 115
+    Name: Medium_Lime
+    Value: {r: 0.7176471, g: 0.83137256, b: 0.14509805, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 118
+    Name: Aqua
+    Value: {r: 0.6117647, g: 0.8392157, b: 0.8, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 120
+    Name: Light_Lime
+    Value: {r: 0.87058824, g: 0.91764706, b: 0.57254905, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 121
+    Name: Light_Orange
+    Value: {r: 0.972549, g: 0.6039216, b: 0.22352941, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 123
+    Name: Dark_Salmon
+    Value: {r: 0.93333334, g: 0.32941177, b: 0.20392157, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 125
+    Name: Spud_Orange
+    Value: {r: 0.9764706, g: 0.654902, b: 0.46666667, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 128
+    Name: Dark_Nougat
+    Value: {r: 0.6784314, g: 0.38039216, b: 0.2509804, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 151
+    Name: Very_Light_Bluish_Grey
+    Value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 180
+    Name: Dark_Yellow
+    Value: {r: 0.8666667, g: 0.59607846, b: 0.18039216, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 191
+    Name: Bright_Light_Orange
+    Value: {r: 0.9882353, g: 0.6745098, b: 0, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 212
+    Name: Bright_Light_Blue
+    Value: {r: 0.6156863, g: 0.7647059, b: 0.96862745, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 213
+    Name: Medium_Blue_Violet
+    Value: {r: 0.2784314, g: 0.43529412, b: 0.7137255, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 216
+    Name: Rust
+    Value: {r: 0.5294118, g: 0.16862746, b: 0.09019608, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 218
+    Name: Reddish_Lilac
+    Value: {r: 0.5568628, g: 0.33333334, b: 0.5921569, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 219
+    Name: Lilac
+    Value: {r: 0.3372549, g: 0.30588236, b: 0.6156863, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 220
+    Name: Light_Lilac
+    Value: {r: 0.5686275, g: 0.58431375, b: 0.7921569, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 225
+    Name: Warm_Yellowish_Orange
+    Value: {r: 0.98039216, g: 0.6627451, b: 0.39215687, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 226
+    Name: Bright_Light_Yellow
+    Value: {r: 1, g: 0.9254902, b: 0.42352942, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 232
+    Name: Sky_Blue
+    Value: {r: 0.46666667, g: 0.7882353, b: 0.84705883, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 272
+    Name: Dark_Blue
+    Value: {r: 0.09803922, g: 0.19607843, b: 0.3529412, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 288
+    Name: Dark_Green
+    Value: {r: 0, g: 0.27058825, b: 0.101960786, a: 1}
+    EdgeColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 295
+    Name: Flamingo_Pink
+    Value: {r: 1, g: 0.5803922, b: 0.7607843, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 308
+    Name: Dark_Brown
+    Value: {r: 0.20784314, g: 0.12941177, b: 0, a: 1}
+    EdgeColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 313
+    Name: Maersk_Blue
+    Value: {r: 0.67058825, g: 0.8509804, b: 1, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 320
+    Name: Dark_Red
+    Value: {r: 0.44705883, g: 0, b: 0.07058824, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 321
+    Name: Dark_Azure
+    Value: {r: 0.27450982, g: 0.60784316, b: 0.7647059, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 322
+    Name: Medium_Azure
+    Value: {r: 0.40784314, g: 0.7647059, b: 0.8862745, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 323
+    Name: Light_Aqua
+    Value: {r: 0.827451, g: 0.9490196, b: 0.91764706, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 326
+    Name: Yellowish_Green
+    Value: {r: 0.8862745, g: 0.9764706, b: 0.6039216, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 330
+    Name: Olive_Green
+    Value: {r: 0.46666667, g: 0.46666667, b: 0.30588236, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 335
+    Name: Sand_Red
+    Value: {r: 0.53333336, g: 0.3764706, b: 0.36862746, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 351
+    Name: Medium_Dark_Pink
+    Value: {r: 0.96862745, g: 0.52156866, b: 0.69411767, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 353
+    Name: Coral
+    Value: {r: 1, g: 0.42745098, b: 0.46666667, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 366
+    Name: Earth_Orange
+    Value: {r: 0.84705883, g: 0.42745098, b: 0.17254902, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 368
+    Name: Neon_Yellow
+    Value: {r: 0.92941177, g: 1, b: 0.12941177, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 370
+    Name: Medium_Brown
+    Value: {r: 0.45882353, g: 0.34901962, b: 0.27058825, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 371
+    Name: Medium_Tan
+    Value: {r: 0.8, g: 0.6392157, b: 0.4509804, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 373
+    Name: Sand_Purple
+    Value: {r: 0.45882353, g: 0.39607844, b: 0.49019608, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 378
+    Name: Sand_Green
+    Value: {r: 0.4392157, g: 0.5568628, b: 0.4862745, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 379
+    Name: Sand_Blue
+    Value: {r: 0.4392157, g: 0.5058824, b: 0.6039216, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 402
+    Name: Reddish_Orange
+    Value: {r: 0.7921569, g: 0.29803923, b: 0.043137256, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 422
+    Name: Sienna_Brown
+    Value: {r: 0.5686275, g: 0.36078432, b: 0.23529412, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 423
+    Name: Umber_Brown
+    Value: {r: 0.32941177, g: 0.24705882, b: 0.2, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 424
+    Name: Ochre_Yellow
+    Value: {r: 0.8666667, g: 0.61960787, b: 0.2784314, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 430
+    Name: Warm_Pink
+    Value: {r: 0.96862745, g: 0.60784316, b: 0.60784316, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 431
+    Name: Bright_Blue_Violet
+    Value: {r: 0.4, g: 0.36862746, b: 0.654902, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 450
+    Name: Fabuland_Brown
+    Value: {r: 0.8235294, g: 0.46666667, b: 0.26666668, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 462
+    Name: Medium_Orange
+    Value: {r: 0.9607843, g: 0.5254902, b: 0.14117648, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 484
+    Name: Dark_Orange
+    Value: {r: 0.5686275, g: 0.3137255, b: 0.10980392, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 503
+    Name: Very_Light_Grey
+    Value: {r: 0.7372549, g: 0.7058824, b: 0.64705884, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 508
+    Name: Fabuland_Red
+    Value: {r: 0.7764706, g: 0.31764707, b: 0.15294118, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 509
+    Name: Fabuland_Orange
+    Value: {r: 0.8117647, g: 0.5411765, b: 0.2784314, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 510
+    Name: Fabuland_Lime
+    Value: {r: 0.6745098, g: 0.8901961, b: 0.3529412, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 10015
+    Name: Lemon
+    Value: {r: 1, g: 0.9490196, b: 0.1882353, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 10017
+    Name: Rose_Pink
+    Value: {r: 1, g: 0.5803922, b: 0.5803922, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 10022
+    Name: Yellowish_Dark_Pink
+    Value: {r: 0.8156863, g: 0.3137255, b: 0.59607846, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 32
+    Name: Trans_Black_IR_Lens
+    Value: {r: 0, g: 0, b: 0, a: 0.8235294}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 210
+    Finish: 1
+  - Code: 33
+    Name: Trans_Dark_Blue
+    Value: {r: 0, g: 0.1254902, b: 0.627451, a: 0.5019608}
+    EdgeColor: {r: 0, g: 0.043137256, b: 0.21960784, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 34
+    Name: Trans_Green
+    Value: {r: 0.13725491, g: 0.47058824, b: 0.25490198, a: 0.5019608}
+    EdgeColor: {r: 0.09019608, g: 0.30980393, b: 0.16862746, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 35
+    Name: Trans_Bright_Green
+    Value: {r: 0.3372549, g: 0.9019608, b: 0.27450982, a: 0.5019608}
+    EdgeColor: {r: 0.15294118, g: 0.6862745, b: 0.09411765, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 36
+    Name: Trans_Red
+    Value: {r: 0.7882353, g: 0.101960786, b: 0.03529412, a: 0.5019608}
+    EdgeColor: {r: 0.4, g: 0.050980393, b: 0.019607844, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 37
+    Name: Trans_Dark_Pink
+    Value: {r: 0.8745098, g: 0.4, b: 0.58431375, a: 0.5019608}
+    EdgeColor: {r: 0.7254902, g: 0.15294118, b: 0.37254903, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 38
+    Name: Trans_Neon_Orange
+    Value: {r: 1, g: 0.5019608, b: 0.050980393, a: 0.5019608}
+    EdgeColor: {r: 0.65882355, g: 0.31764707, b: 0, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 39
+    Name: Trans_Very_Light_Blue
+    Value: {r: 0.75686276, g: 0.8745098, b: 0.9411765, a: 0.5019608}
+    EdgeColor: {r: 0.43529412, g: 0.7058824, b: 0.8627451, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 40
+    Name: Trans_Brown
+    Value: {r: 0.3882353, g: 0.37254903, b: 0.32156864, a: 0.5019608}
+    EdgeColor: {r: 0.16470589, g: 0.15686275, b: 0.13725491, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 41
+    Name: Trans_Medium_Blue
+    Value: {r: 0.33333334, g: 0.6039216, b: 0.7176471, a: 0.5019608}
+    EdgeColor: {r: 0.19607843, g: 0.38431373, b: 0.4627451, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 42
+    Name: Trans_Neon_Green
+    Value: {r: 0.7529412, g: 1, b: 0, a: 0.5019608}
+    EdgeColor: {r: 0.4509804, g: 0.6, b: 0, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 43
+    Name: Trans_Light_Blue
+    Value: {r: 0.68235296, g: 0.9137255, b: 0.9372549, a: 0.5019608}
+    EdgeColor: {r: 0.34901962, g: 0.81960785, b: 0.87058824, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 44
+    Name: Trans_Bright_Reddish_Lilac
+    Value: {r: 0.5882353, g: 0.4392157, b: 0.62352943, a: 0.5019608}
+    EdgeColor: {r: 0.37254903, g: 0.2627451, b: 0.39607844, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 45
+    Name: Trans_Pink
+    Value: {r: 0.9882353, g: 0.5921569, b: 0.6745098, a: 0.5019608}
+    EdgeColor: {r: 0.9764706, g: 0.20392157, b: 0.35686275, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 46
+    Name: Trans_Yellow
+    Value: {r: 0.9607843, g: 0.8039216, b: 0.18431373, a: 0.5019608}
+    EdgeColor: {r: 0.7058824, g: 0.57254905, b: 0.03137255, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 47
+    Name: Trans_Clear
+    Value: {r: 0.9882353, g: 0.9882353, b: 0.9882353, a: 0.5019608}
+    EdgeColor: {r: 0.7882353, g: 0.7882353, b: 0.7882353, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 52
+    Name: Trans_Purple
+    Value: {r: 0.64705884, g: 0.64705884, b: 0.79607844, a: 0.5019608}
+    EdgeColor: {r: 0.39215687, g: 0.39215687, b: 0.6509804, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 54
+    Name: Trans_Neon_Yellow
+    Value: {r: 0.85490197, g: 0.6901961, b: 0, a: 0.5019608}
+    EdgeColor: {r: 0.45882353, g: 0.36862746, b: 0, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 57
+    Name: Trans_Orange
+    Value: {r: 0.9411765, g: 0.56078434, b: 0.10980392, a: 0.5019608}
+    EdgeColor: {r: 0.61960787, g: 0.36078432, b: 0.039215688, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 158
+    Name: Trans_Neon_Red
+    Value: {r: 0.94509804, g: 0.5568628, b: 0.73333335, a: 0.5019608}
+    EdgeColor: {r: 0.9019608, g: 0.2, b: 0.5176471, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 227
+    Name: Trans_Bright_Light_Green
+    Value: {r: 0.70980394, g: 0.8509804, b: 0.42352942, a: 0.5019608}
+    EdgeColor: {r: 0.5254902, g: 0.69803923, b: 0.18039216, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 231
+    Name: Trans_Bright_Light_Orange
+    Value: {r: 0.9882353, g: 0.7176471, b: 0.42745098, a: 0.5019608}
+    EdgeColor: {r: 0.98039216, g: 0.5254902, b: 0.039215688, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 234
+    Name: Trans_Fire_Yellow
+    Value: {r: 0.9843137, g: 0.9098039, b: 0.5647059, a: 0.5019608}
+    EdgeColor: {r: 0.96862745, g: 0.8235294, b: 0.16862746, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 284
+    Name: Trans_Reddish_Lilac
+    Value: {r: 0.7607843, g: 0.5058824, b: 0.64705884, a: 0.5019608}
+    EdgeColor: {r: 0.5803922, g: 0.2784314, b: 0.44313726, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 285
+    Name: Trans_Light_Green
+    Value: {r: 0.49019608, g: 0.7607843, b: 0.5686275, a: 0.5019608}
+    EdgeColor: {r: 0.27450982, g: 0.58431375, b: 0.3647059, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 293
+    Name: Trans_Light_Blue_Violet
+    Value: {r: 0.41960785, g: 0.67058825, b: 0.89411765, a: 0.5019608}
+    EdgeColor: {r: 0.14117648, g: 0.48235294, b: 0.7764706, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 10375
+    Name: Trans_Black
+    Value: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 0.5019608}
+    EdgeColor: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 11015
+    Name: Trans_White
+    Value: {r: 0.95686275, g: 0.95686275, b: 0.95686275, a: 0.68235296}
+    EdgeColor: {r: 0.75686276, g: 0.75686276, b: 0.75686276, a: 1}
+    Alpha: 174
+    Finish: 1
+  - Code: 11019
+    Name: Trans_Tan
+    Value: {r: 0.84313726, g: 0.7294118, b: 0.54901963, a: 0.5019608}
+    EdgeColor: {r: 0.7372549, g: 0.5529412, b: 0.25490198, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 60
+    Name: Chrome_Antique_Brass
+    Value: {r: 0.39215687, g: 0.3529412, b: 0.29803923, a: 1}
+    EdgeColor: {r: 0.4, g: 0.35686275, b: 0.3019608, a: 1}
+    Alpha: 255
+    Finish: 2
+  - Code: 61
+    Name: Chrome_Blue
+    Value: {r: 0.42352942, g: 0.5882353, b: 0.7490196, a: 1}
+    EdgeColor: {r: 0.23921569, g: 0.3882353, b: 0.5411765, a: 1}
+    Alpha: 255
+    Finish: 2
+  - Code: 62
+    Name: Chrome_Green
+    Value: {r: 0.23529412, g: 0.7019608, b: 0.44313726, a: 1}
+    EdgeColor: {r: 0.13333334, g: 0.40392157, b: 0.25490198, a: 1}
+    Alpha: 255
+    Finish: 2
+  - Code: 63
+    Name: Chrome_Pink
+    Value: {r: 0.6666667, g: 0.3019608, b: 0.5568628, a: 1}
+    EdgeColor: {r: 0.3882353, g: 0.17254902, b: 0.32156864, a: 1}
+    Alpha: 255
+    Finish: 2
+  - Code: 64
+    Name: Chrome_Black
+    Value: {r: 0.105882354, g: 0.16470589, b: 0.20392157, a: 1}
+    EdgeColor: {r: 0.23921569, g: 0.37254903, b: 0.4627451, a: 1}
+    Alpha: 255
+    Finish: 2
+  - Code: 334
+    Name: Chrome_Gold
+    Value: {r: 0.8745098, g: 0.75686276, b: 0.4627451, a: 1}
+    EdgeColor: {r: 0.7607843, g: 0.59607846, b: 0.18039216, a: 1}
+    Alpha: 255
+    Finish: 2
+  - Code: 383
+    Name: Chrome_Silver
+    Value: {r: 0.80784315, g: 0.80784315, b: 0.80784315, a: 1}
+    EdgeColor: {r: 0.6117647, g: 0.6117647, b: 0.6117647, a: 1}
+    Alpha: 255
+    Finish: 2
+  - Code: 83
+    Name: Pearl_Black
+    Value: {r: 0.039215688, g: 0.07450981, b: 0.15294118, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 134
+    Name: Copper
+    Value: {r: 0.4627451, g: 0.3019608, b: 0.23137255, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 135
+    Name: Pearl_Light_Grey
+    Value: {r: 0.627451, g: 0.627451, b: 0.627451, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 137
+    Name: Metallic_Blue
+    Value: {r: 0.35686275, g: 0.45882353, b: 0.5647059, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 142
+    Name: Pearl_Light_Gold
+    Value: {r: 0.87058824, g: 0.6745098, b: 0.4, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 147
+    Name: Pearl_Dark_Gold
+    Value: {r: 0.5137255, g: 0.44705883, b: 0.30980393, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 148
+    Name: Pearl_Dark_Grey
+    Value: {r: 0.28235295, g: 0.3019608, b: 0.28235295, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 150
+    Name: Pearl_Very_Light_Grey
+    Value: {r: 0.59607846, g: 0.60784316, b: 0.6, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 176
+    Name: Pearl_Red
+    Value: {r: 0.5803922, g: 0.31764707, b: 0.28235295, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 178
+    Name: Pearl_Yellow
+    Value: {r: 0.67058825, g: 0.40392157, b: 0.22745098, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 179
+    Name: Pearl_Silver
+    Value: {r: 0.5372549, g: 0.5294118, b: 0.53333336, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 183
+    Name: Pearl_White
+    Value: {r: 0.9647059, g: 0.9490196, b: 0.8745098, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 184
+    Name: Metallic_Bright_Red
+    Value: {r: 0.8392157, g: 0, b: 0.14901961, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 185
+    Name: Metallic_Bright_Blue
+    Value: {r: 0, g: 0.34901962, b: 0.6392157, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 186
+    Name: Metallic_Dark_Green
+    Value: {r: 0, g: 0.5568628, b: 0.23529412, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 187
+    Name: Pearl_Brown
+    Value: {r: 0.34117648, g: 0.22352941, b: 0.17254902, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 189
+    Name: Reddish_Gold
+    Value: {r: 0.6745098, g: 0.50980395, b: 0.2784314, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 200
+    Name: Lemon_Metallic
+    Value: {r: 0.4392157, g: 0.50980395, b: 0.14117648, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 296
+    Name: Cool_Silver
+    Value: {r: 0.6784314, g: 0.6784314, b: 0.6784314, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 297
+    Name: Pearl_Gold
+    Value: {r: 0.6666667, g: 0.49803922, b: 0.18039216, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 315
+    Name: Flat_Silver
+    Value: {r: 0.54901963, g: 0.54901963, b: 0.54901963, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 316
+    Name: Titanium_Metallic
+    Value: {r: 0.24313726, g: 0.23529412, b: 0.22352941, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 342
+    Name: Conductive_Black
+    Value: {r: 0.24313726, g: 0.23529412, b: 0.22352941, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 346
+    Name: Reddish_Copper
+    Value: {r: 0.5019608, g: 0.23921569, b: 0.02745098, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 3
+  - Code: 80
+    Name: Metallic_Silver
+    Value: {r: 0.4627451, g: 0.4627451, b: 0.4627451, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 6
+  - Code: 81
+    Name: Metallic_Green
+    Value: {r: 0.7607843, g: 0.7529412, b: 0.43529412, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 6
+  - Code: 82
+    Name: Metallic_Gold
+    Value: {r: 0.85882354, g: 0.6745098, b: 0.20392157, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 6
+  - Code: 87
+    Name: Metallic_Dark_Grey
+    Value: {r: 0.24313726, g: 0.23529412, b: 0.22352941, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 6
+  - Code: 300
+    Name: Metallic_Copper
+    Value: {r: 0.7607843, g: 0.49803922, b: 0.3254902, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 6
+  - Code: 10045
+    Name: Metallic_Light_Blue
+    Value: {r: 0.5921569, g: 0.79607844, b: 0.8509804, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 6
+  - Code: 10046
+    Name: Metallic_Pink
+    Value: {r: 0.6784314, g: 0.39607844, b: 0.6039216, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 6
+  - Code: 10049
+    Name: Metallic_Light_Pink
+    Value: {r: 0.99607843, g: 0.8, b: 0.8117647, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 6
+  - Code: 332
+    Name: Fluorescent_Red_Ink
+    Value: {r: 0.8156863, g: 0.42745098, b: 0.30980393, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 333
+    Name: Fluorescent_Green_Ink
+    Value: {r: 0.85882354, g: 0.91764706, b: 0.47843137, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 21
+    Name: Glow_In_Dark_Opaque
+    Value: {r: 0.8784314, g: 1, b: 0.6901961, a: 0.9411765}
+    EdgeColor: {r: 0.72156864, g: 1, b: 0.3019608, a: 1}
+    Alpha: 240
+    Finish: 1
+  - Code: 79
+    Name: Milky_White
+    Value: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 0.9411765}
+    EdgeColor: {r: 0.7294118, g: 0.7294118, b: 0.7294118, a: 1}
+    Alpha: 240
+    Finish: 1
+  - Code: 294
+    Name: Glow_In_Dark_Trans
+    Value: {r: 0.7411765, g: 0.7764706, b: 0.6784314, a: 0.9411765}
+    EdgeColor: {r: 0.5529412, g: 0.6156863, b: 0.44705883, a: 1}
+    Alpha: 240
+    Finish: 1
+  - Code: 329
+    Name: Glow_In_Dark_White
+    Value: {r: 0.9607843, g: 0.9529412, b: 0.84313726, a: 0.9411765}
+    EdgeColor: {r: 0.8784314, g: 0.85490197, b: 0.52156866, a: 1}
+    Alpha: 240
+    Finish: 1
+  - Code: 114
+    Name: Glitter_Trans_Dark_Pink
+    Value: {r: 0.8745098, g: 0.4, b: 0.58431375, a: 0.5019608}
+    EdgeColor: {r: 0.7254902, g: 0.15294118, b: 0.37254903, a: 1}
+    Alpha: 128
+    Finish: 7
+  - Code: 117
+    Name: Glitter_Trans_Clear
+    Value: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 0.5019608}
+    EdgeColor: {r: 0.7294118, g: 0.7294118, b: 0.7294118, a: 1}
+    Alpha: 128
+    Finish: 7
+  - Code: 129
+    Name: Glitter_Trans_Purple
+    Value: {r: 0.39215687, g: 0, b: 0.38039216, a: 0.5019608}
+    EdgeColor: {r: 0, g: 0, b: 0, a: 1}
+    Alpha: 128
+    Finish: 7
+  - Code: 302
+    Name: Glitter_Trans_Light_Blue
+    Value: {r: 0.68235296, g: 0.9137255, b: 0.9372549, a: 0.5019608}
+    EdgeColor: {r: 0.34901962, g: 0.81960785, b: 0.87058824, a: 1}
+    Alpha: 128
+    Finish: 7
+  - Code: 339
+    Name: Glitter_Trans_Neon_Green
+    Value: {r: 0.7529412, g: 1, b: 0, a: 0.5019608}
+    EdgeColor: {r: 0.4509804, g: 0.6, b: 0, a: 1}
+    Alpha: 128
+    Finish: 7
+  - Code: 341
+    Name: Glitter_Trans_Orange
+    Value: {r: 0.9411765, g: 0.56078434, b: 0.10980392, a: 0.5019608}
+    EdgeColor: {r: 0.61960787, g: 0.36078432, b: 0.039215688, a: 1}
+    Alpha: 128
+    Finish: 7
+  - Code: 10351
+    Name: Glitter_Trans_Bright_Green
+    Value: {r: 0.3372549, g: 0.9019608, b: 0.27450982, a: 0.5019608}
+    EdgeColor: {r: 0.15294118, g: 0.6862745, b: 0.09411765, a: 1}
+    Alpha: 128
+    Finish: 7
+  - Code: 360
+    Name: Opal_Trans_Clear
+    Value: {r: 0.9882353, g: 0.9882353, b: 0.9882353, a: 0.9411765}
+    EdgeColor: {r: 0.7882353, g: 0.7882353, b: 0.7882353, a: 1}
+    Alpha: 240
+    Finish: 7
+  - Code: 362
+    Name: Opal_Trans_Light_Blue
+    Value: {r: 0.68235296, g: 0.9137255, b: 0.9372549, a: 0.78431374}
+    EdgeColor: {r: 0.34901962, g: 0.81960785, b: 0.87058824, a: 1}
+    Alpha: 200
+    Finish: 7
+  - Code: 363
+    Name: Opal_Trans_Black
+    Value: {r: 0.3882353, g: 0.37254903, b: 0.32156864, a: 0.78431374}
+    EdgeColor: {r: 0.16470589, g: 0.15686275, b: 0.13725491, a: 1}
+    Alpha: 200
+    Finish: 7
+  - Code: 364
+    Name: Opal_Trans_Dark_Pink
+    Value: {r: 0.8745098, g: 0.4, b: 0.58431375, a: 0.78431374}
+    EdgeColor: {r: 0.7254902, g: 0.15294118, b: 0.37254903, a: 1}
+    Alpha: 200
+    Finish: 7
+  - Code: 365
+    Name: Opal_Trans_Purple
+    Value: {r: 0.40392157, g: 0.12156863, b: 0.5058824, a: 0.78431374}
+    EdgeColor: {r: 0.26666668, g: 0.078431375, b: 0.3372549, a: 1}
+    Alpha: 200
+    Finish: 7
+  - Code: 367
+    Name: Opal_Trans_Green
+    Value: {r: 0.13725491, g: 0.47058824, b: 0.25490198, a: 0.78431374}
+    EdgeColor: {r: 0.09019608, g: 0.30980393, b: 0.16862746, a: 1}
+    Alpha: 200
+    Finish: 7
+  - Code: 376
+    Name: Opal_Trans_Yellow
+    Value: {r: 0.9607843, g: 0.8039216, b: 0.18431373, a: 0.78431374}
+    EdgeColor: {r: 0.7058824, g: 0.57254905, b: 0.03137255, a: 1}
+    Alpha: 200
+    Finish: 7
+  - Code: 10366
+    Name: Opal_Trans_Dark_Blue
+    Value: {r: 0, g: 0.1254902, b: 0.627451, a: 0.78431374}
+    EdgeColor: {r: 0, g: 0.043137256, b: 0.21960784, a: 1}
+    Alpha: 200
+    Finish: 7
+  - Code: 75
+    Name: Speckle_Black_Copper
+    Value: {r: 0, g: 0, b: 0, a: 1}
+    EdgeColor: {r: 0.67058825, g: 0.3764706, b: 0.21960784, a: 1}
+    Alpha: 255
+    Finish: 8
+  - Code: 76
+    Name: Speckle_Dark_Bluish_Grey_Silver
+    Value: {r: 0.3882353, g: 0.37254903, b: 0.38039216, a: 1}
+    EdgeColor: {r: 0.5372549, g: 0.5294118, b: 0.53333336, a: 1}
+    Alpha: 255
+    Finish: 8
+  - Code: 132
+    Name: Speckle_Black_Silver
+    Value: {r: 0, g: 0, b: 0, a: 1}
+    EdgeColor: {r: 0.5372549, g: 0.5294118, b: 0.53333336, a: 1}
+    Alpha: 255
+    Finish: 8
+  - Code: 133
+    Name: Speckle_Black_Gold
+    Value: {r: 0, g: 0, b: 0, a: 1}
+    EdgeColor: {r: 0.85882354, g: 0.6745098, b: 0.20392157, a: 1}
+    Alpha: 255
+    Finish: 8
+  - Code: 30000
+    Name: Modulex_Clear
+    Value: {r: 0.9882353, g: 0.9882353, b: 0.9882353, a: 0.5019608}
+    EdgeColor: {r: 0.7882353, g: 0.7882353, b: 0.7882353, a: 1}
+    Alpha: 128
+    Finish: 1
+  - Code: 30001
+    Name: Modulex_White
+    Value: {r: 0.95686275, g: 0.95686275, b: 0.95686275, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30002
+    Name: Modulex_Light_Grey
+    Value: {r: 0.5411765, g: 0.57254905, b: 0.5529412, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30003
+    Name: Modulex_Black
+    Value: {r: 0.20392157, g: 0.2627451, b: 0.3019608, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30004
+    Name: Modulex_Terracotta
+    Value: {r: 0.8235294, g: 0.46666667, b: 0.26666668, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30005
+    Name: Modulex_Buff
+    Value: {r: 0.84313726, g: 0.7294118, b: 0.54901963, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30006
+    Name: Modulex_Ochre_Yellow
+    Value: {r: 0.99607843, g: 0.8352941, b: 0.34117648, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30007
+    Name: Modulex_Olive_Green
+    Value: {r: 0.4862745, g: 0.5647059, b: 0.31764707, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30008
+    Name: Modulex_Teal_Blue
+    Value: {r: 0.27450982, g: 0.4392157, b: 0.5137255, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30009
+    Name: Modulex_Brown
+    Value: {r: 0.5647059, g: 0.45490196, b: 0.3137255, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30010
+    Name: Modulex_Strong_Red
+    Value: {r: 0.7058824, g: 0, b: 0, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30011
+    Name: Modulex_Pastel_Blue
+    Value: {r: 0.67058825, g: 0.8509804, b: 1, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30012
+    Name: Modulex_Orange
+    Value: {r: 0.84705883, g: 0.42745098, b: 0.17254902, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30013
+    Name: Modulex_Red
+    Value: {r: 0.7764706, g: 0.31764707, b: 0.15294118, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30014
+    Name: Modulex_Pastel_Green
+    Value: {r: 0.47058824, g: 0.9882353, b: 0.47058824, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30015
+    Name: Modulex_Lemon
+    Value: {r: 1, g: 0.9490196, b: 0.1882353, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30016
+    Name: Modulex_Pink
+    Value: {r: 0.96862745, g: 0.52156866, b: 0.69411767, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30032
+    Name: Modulex_Light_Bluish_Grey
+    Value: {r: 0.6862745, g: 0.70980394, b: 0.78039217, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30033
+    Name: Modulex_Pink_Red
+    Value: {r: 0.95686275, g: 0.36078432, b: 0.2509804, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30034
+    Name: Modulex_Aqua_Green
+    Value: {r: 0.15294118, g: 0.5254902, b: 0.49411765, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30035
+    Name: Modulex_Light_Yellow
+    Value: {r: 1, g: 0.8901961, b: 0.44313726, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30037
+    Name: Modulex_Violet
+    Value: {r: 0.7411765, g: 0.49019608, b: 0.52156866, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30038
+    Name: Modulex_Medium_Blue
+    Value: {r: 0.38039216, g: 0.6862745, b: 1, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30039
+    Name: Modulex_Light_Orange
+    Value: {r: 0.96862745, g: 0.6784314, b: 0.3882353, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30040
+    Name: Modulex_Charcoal_Grey
+    Value: {r: 0.34901962, g: 0.3647059, b: 0.3764706, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30054
+    Name: Modulex_Dark_Brown
+    Value: {r: 0.2, g: 0, b: 0, a: 1}
+    EdgeColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30080
+    Name: Modulex_Foil_White
+    Value: {r: 0.95686275, g: 0.95686275, b: 0.95686275, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30081
+    Name: Modulex_Foil_Black
+    Value: {r: 0.20392157, g: 0.2627451, b: 0.3019608, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30082
+    Name: Modulex_Foil_Dark_Grey
+    Value: {r: 0.34901962, g: 0.3647059, b: 0.3764706, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30083
+    Name: Modulex_Foil_Light_Grey
+    Value: {r: 0.6117647, g: 0.6117647, b: 0.6117647, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30084
+    Name: Modulex_Foil_Dark_Green
+    Value: {r: 0, g: 0.39215687, b: 0, a: 1}
+    EdgeColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30085
+    Name: Modulex_Foil_Light_Green
+    Value: {r: 0.49019608, g: 0.70980394, b: 0.21960784, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30086
+    Name: Modulex_Foil_Dark_Blue
+    Value: {r: 0, g: 0.34117648, b: 0.6509804, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30087
+    Name: Modulex_Foil_Light_Blue
+    Value: {r: 0.40784314, g: 0.68235296, b: 0.80784315, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30088
+    Name: Modulex_Foil_Violet
+    Value: {r: 0.29411766, g: 0, b: 0.50980395, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30089
+    Name: Modulex_Foil_Dark_Red
+    Value: {r: 0.54509807, g: 0, b: 0, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30090
+    Name: Modulex_Foil_Yellow
+    Value: {r: 0.99607843, g: 0.8352941, b: 0.34117648, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 30091
+    Name: Modulex_Foil_Orange
+    Value: {r: 0.96862745, g: 0.6784314, b: 0.3882353, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 31000
+    Name: Modulex_Dark_Grey
+    Value: {r: 0.41960785, g: 0.3529412, b: 0.3529412, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 31001
+    Name: Modulex_Blue
+    Value: {r: 0, g: 0.34117648, b: 0.6509804, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 31002
+    Name: Modulex_Very_Light_Grey
+    Value: {r: 0.8509804, g: 0.8352941, b: 0.8, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 65
+    Name: Rubber_Yellow
+    Value: {r: 0.98039216, g: 0.78431374, b: 0.039215688, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 256
+    Name: Rubber_Black
+    Value: {r: 0.105882354, g: 0.16470589, b: 0.20392157, a: 1}
+    EdgeColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 273
+    Name: Rubber_Blue
+    Value: {r: 0.11764706, g: 0.3529412, b: 0.65882355, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 324
+    Name: Rubber_Red
+    Value: {r: 0.7058824, g: 0, b: 0, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 350
+    Name: Rubber_Orange
+    Value: {r: 0.8392157, g: 0.4745098, b: 0.13725491, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 375
+    Name: Rubber_Light_Grey
+    Value: {r: 0.5411765, g: 0.57254905, b: 0.5529412, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 406
+    Name: Rubber_Dark_Blue
+    Value: {r: 0.09803922, g: 0.19607843, b: 0.3529412, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 449
+    Name: Rubber_Purple
+    Value: {r: 0.40392157, g: 0.12156863, b: 0.5058824, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 490
+    Name: Rubber_Lime
+    Value: {r: 0.64705884, g: 0.7921569, b: 0.09411765, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 496
+    Name: Rubber_Light_Bluish_Grey
+    Value: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 504
+    Name: Rubber_Flat_Silver
+    Value: {r: 0.5372549, g: 0.5294118, b: 0.53333336, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 511
+    Name: Rubber_White
+    Value: {r: 0.95686275, g: 0.95686275, b: 0.95686275, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10002
+    Name: Rubber_Green
+    Value: {r: 0, g: 0.52156866, b: 0.16862746, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10003
+    Name: Rubber_Dark_Turquoise
+    Value: {r: 0.023529412, g: 0.6156863, b: 0.62352943, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10005
+    Name: Rubber_Dark_Pink
+    Value: {r: 0.827451, g: 0.20784314, b: 0.6156863, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10008
+    Name: Rubber_Dark_Grey
+    Value: {r: 0.32941177, g: 0.34901962, b: 0.33333334, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10010
+    Name: Rubber_Bright_Green
+    Value: {r: 0.34509805, g: 0.67058825, b: 0.25490198, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10019
+    Name: Rubber_Tan
+    Value: {r: 0.84313726, g: 0.7294118, b: 0.54901963, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10026
+    Name: Rubber_Magenta
+    Value: {r: 0.5647059, g: 0.12156863, b: 0.4627451, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10028
+    Name: Rubber_Dark_Tan
+    Value: {r: 0.5372549, g: 0.49019608, b: 0.38431373, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10029
+    Name: Rubber_Bright_Pink
+    Value: {r: 1, g: 0.61960787, b: 0.8039216, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10030
+    Name: Rubber_Medium_Lavender
+    Value: {r: 0.627451, g: 0.43137255, b: 0.7254902, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10031
+    Name: Rubber_Lavender
+    Value: {r: 0.8039216, g: 0.6431373, b: 0.87058824, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10070
+    Name: Rubber_Reddish_Brown
+    Value: {r: 0.37254903, g: 0.19215687, b: 0.03529412, a: 1}
+    EdgeColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10072
+    Name: Rubber_Dark_Bluish_Grey
+    Value: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10073
+    Name: Rubber_Medium_Blue
+    Value: {r: 0.4509804, g: 0.5882353, b: 0.78431374, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10078
+    Name: Rubber_Light_Nougat
+    Value: {r: 1, g: 0.7882353, b: 0.58431375, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10084
+    Name: Rubber_Medium_Nougat
+    Value: {r: 0.6666667, g: 0.49019608, b: 0.33333334, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10085
+    Name: Rubber_Medium_Lilac
+    Value: {r: 0.26666668, g: 0.101960786, b: 0.5686275, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10092
+    Name: Rubber_Nougat
+    Value: {r: 0.73333335, g: 0.5019608, b: 0.3529412, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10135
+    Name: Rubber_Pearl_Light_Grey
+    Value: {r: 0.627451, g: 0.627451, b: 0.627451, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10137
+    Name: Rubber_Metallic_Blue
+    Value: {r: 0.35686275, g: 0.45882353, b: 0.5647059, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10147
+    Name: Rubber_Pearl_Dark_Gold
+    Value: {r: 0.5137255, g: 0.44705883, b: 0.30980393, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10148
+    Name: Rubber_Pearl_Dark_Grey
+    Value: {r: 0.28235295, g: 0.3019608, b: 0.28235295, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10150
+    Name: Rubber_Pearl_Very_Light_Grey
+    Value: {r: 0.59607846, g: 0.60784316, b: 0.6, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10151
+    Name: Rubber_Very_Light_Bluish_Grey
+    Value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10189
+    Name: Rubber_Reddish_Gold
+    Value: {r: 0.6745098, g: 0.50980395, b: 0.2784314, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10191
+    Name: Rubber_Bright_Light_Orange
+    Value: {r: 0.9882353, g: 0.6745098, b: 0, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10200
+    Name: Rubber_Lemon_Metallic
+    Value: {r: 0.4392157, g: 0.50980395, b: 0.14117648, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10212
+    Name: Rubber_Bright_Light_Blue
+    Value: {r: 0.6156863, g: 0.7647059, b: 0.96862745, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10226
+    Name: Rubber_Bright_Light_Yellow
+    Value: {r: 1, g: 0.9254902, b: 0.42352942, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10288
+    Name: Rubber_Dark_Green
+    Value: {r: 0, g: 0.27058825, b: 0.101960786, a: 1}
+    EdgeColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10297
+    Name: Rubber_Pearl_Gold
+    Value: {r: 0.6666667, g: 0.49803922, b: 0.18039216, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10308
+    Name: Rubber_Dark_Brown
+    Value: {r: 0.20784314, g: 0.12941177, b: 0, a: 1}
+    EdgeColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10320
+    Name: Rubber_Dark_Red
+    Value: {r: 0.44705883, g: 0, b: 0.07058824, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10321
+    Name: Rubber_Dark_Azure
+    Value: {r: 0.27450982, g: 0.60784316, b: 0.7647059, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10322
+    Name: Rubber_Medium_Azure
+    Value: {r: 0.40784314, g: 0.7647059, b: 0.8862745, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10323
+    Name: Rubber_Light_Aqua
+    Value: {r: 0.827451, g: 0.9490196, b: 0.91764706, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10326
+    Name: Rubber_Yellowish_Green
+    Value: {r: 0.8862745, g: 0.9764706, b: 0.6039216, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10330
+    Name: Rubber_Olive_Green
+    Value: {r: 0.46666667, g: 0.46666667, b: 0.30588236, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10378
+    Name: Rubber_Sand_Green
+    Value: {r: 0.4392157, g: 0.5568628, b: 0.4862745, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 10484
+    Name: Rubber_Dark_Orange
+    Value: {r: 0.5686275, g: 0.3137255, b: 0.10980392, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 4
+  - Code: 66
+    Name: Rubber_Trans_Yellow
+    Value: {r: 0.9607843, g: 0.8039216, b: 0.18431373, a: 0.5019608}
+    EdgeColor: {r: 0.7058824, g: 0.57254905, b: 0.03137255, a: 1}
+    Alpha: 128
+    Finish: 4
+  - Code: 67
+    Name: Rubber_Trans_Clear
+    Value: {r: 0.9882353, g: 0.9882353, b: 0.9882353, a: 0.5019608}
+    EdgeColor: {r: 0.7882353, g: 0.7882353, b: 0.7882353, a: 1}
+    Alpha: 128
+    Finish: 4
+  - Code: 10035
+    Name: Rubber_Trans_Bright_Green
+    Value: {r: 0.3372549, g: 0.9019608, b: 0.27450982, a: 0.5019608}
+    EdgeColor: {r: 0.15294118, g: 0.6862745, b: 0.09411765, a: 1}
+    Alpha: 128
+    Finish: 4
+  - Code: 10036
+    Name: Rubber_Trans_Red
+    Value: {r: 0.7882353, g: 0.101960786, b: 0.03529412, a: 0.5019608}
+    EdgeColor: {r: 0.4, g: 0.050980393, b: 0.019607844, a: 1}
+    Alpha: 128
+    Finish: 4
+  - Code: 10043
+    Name: Rubber_Trans_Light_Blue
+    Value: {r: 0.68235296, g: 0.9137255, b: 0.9372549, a: 0.5019608}
+    EdgeColor: {r: 0.34901962, g: 0.81960785, b: 0.87058824, a: 1}
+    Alpha: 128
+    Finish: 4
+  - Code: 10057
+    Name: Rubber_Trans_Orange
+    Value: {r: 0.9411765, g: 0.56078434, b: 0.10980392, a: 0.5019608}
+    EdgeColor: {r: 0.61960787, g: 0.36078432, b: 0.039215688, a: 1}
+    Alpha: 128
+    Finish: 4
+  - Code: 10079
+    Name: Rubber_Milky_White
+    Value: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 0.9411765}
+    EdgeColor: {r: 0.7294118, g: 0.7294118, b: 0.7294118, a: 1}
+    Alpha: 240
+    Finish: 4
+  - Code: 20000
+    Name: Canvas_Black
+    Value: {r: 0.105882354, g: 0.16470589, b: 0.20392157, a: 1}
+    EdgeColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20001
+    Name: Canvas_Blue
+    Value: {r: 0.11764706, g: 0.3529412, b: 0.65882355, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20002
+    Name: Canvas_Green
+    Value: {r: 0, g: 0.52156866, b: 0.16862746, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20004
+    Name: Canvas_Red
+    Value: {r: 0.7058824, g: 0, b: 0, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20006
+    Name: Canvas_Brown
+    Value: {r: 0.32941177, g: 0.2, b: 0.14117648, a: 1}
+    EdgeColor: {r: 0.11764706, g: 0.11764706, b: 0.11764706, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20007
+    Name: Canvas_Light_Grey
+    Value: {r: 0.5411765, g: 0.57254905, b: 0.5529412, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20010
+    Name: Canvas_Bright_Green
+    Value: {r: 0.34509805, g: 0.67058825, b: 0.25490198, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20014
+    Name: Canvas_Yellow
+    Value: {r: 0.98039216, g: 0.78431374, b: 0.039215688, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20015
+    Name: Canvas_White
+    Value: {r: 0.95686275, g: 0.95686275, b: 0.95686275, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20019
+    Name: Canvas_Tan
+    Value: {r: 0.84313726, g: 0.7294118, b: 0.54901963, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20022
+    Name: Canvas_Purple
+    Value: {r: 0.40392157, g: 0.12156863, b: 0.5058824, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20028
+    Name: Canvas_Dark_Tan
+    Value: {r: 0.5372549, g: 0.49019608, b: 0.38431373, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20070
+    Name: Canvas_Reddish_Brown
+    Value: {r: 0.37254903, g: 0.19215687, b: 0.03529412, a: 1}
+    EdgeColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20071
+    Name: Canvas_Light_Bluish_Grey
+    Value: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20072
+    Name: Canvas_Dark_Bluish_Grey
+    Value: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20086
+    Name: Canvas_Light_Brown
+    Value: {r: 0.48235294, g: 0.3647059, b: 0.25490198, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20288
+    Name: Canvas_Dark_Green
+    Value: {r: 0, g: 0.27058825, b: 0.101960786, a: 1}
+    EdgeColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20320
+    Name: Canvas_Dark_Red
+    Value: {r: 0.44705883, g: 0, b: 0.07058824, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20335
+    Name: Canvas_Sand_Red
+    Value: {r: 0.53333336, g: 0.3764706, b: 0.36862746, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 20500
+    Name: Canvas_Cream
+    Value: {r: 0.972549, g: 0.9529412, b: 0.89411765, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 507
+    Name: Obsolete_Light_Orange_Brown
+    Value: {r: 0.98039216, g: 0.6117647, b: 0.10980392, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 16
+    Name: Main_Colour
+    Value: {r: 1, g: 1, b: 0.5019608, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 24
+    Name: Edge_Colour
+    Value: {r: 0.49803922, g: 0.49803922, b: 0.49803922, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 0
+  - Code: 493
+    Name: Magnet
+    Value: {r: 0.39607844, g: 0.40392157, b: 0.38039216, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 6
+  - Code: 494
+    Name: Electric_Contact_Alloy
+    Value: {r: 0.8156863, g: 0.8156863, b: 0.8156863, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 6
+  - Code: 495
+    Name: Electric_Contact_Copper
+    Value: {r: 0.68235296, g: 0.47843137, b: 0.34901962, a: 1}
+    EdgeColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    Alpha: 255
+    Finish: 6
+  - Code: 10047
+    Name: Trans_Sticker
+    Value: {r: 1, g: 1, b: 1, a: 0.0627451}
+    EdgeColor: {r: 1, g: 1, b: 1, a: 1}
+    Alpha: 16
+    Finish: 1
